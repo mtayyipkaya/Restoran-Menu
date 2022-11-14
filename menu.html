@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <title>Sprint Challenge - Menu</title>
-
+    <link rel="stylesheet" href="css/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -15,13 +15,25 @@
     <div>
         <!-- header -->
         <header>
-				ERGİNEER BAR VE MANGAL
+            <div class="container_header">
+                <h1 class=".header_title">ERGİNEER BAR VE MANGAL</h1>
+                
+                <!-- nav -->
+                <nav>
+                    <div class="header_nav">
+                        <a href="menu.html">Menü</a>
+                        <a href="#">Rezervasyonlar</a>
+                        <a href="#">Özel Teklifler</a>
+                        <a href="#">İletişim</a>
+                    </div>
+                    <div class="social_icons">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </nav>
 
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+            </div>
         </header>
 
         <!-- spacer -->
@@ -29,105 +41,330 @@
 
         <!-- menu -->
         <article class="menu">
-            Yemekler & İçecekler
+            <h1>Yemekler & İçecekler</h1>
+            <div class="container_menu">
+                
 
-                İçecekler
-                    Soda
-                    ₺2
-                    Gazlı İçecekler
-
-                    Kahve
-                    ₺2
-                    İsteğe bağlı sütlü ve şekerli
-
-                    Bira
-                    ₺5
-                    Delicious and refreshing
-
-                    Şarap
-                    ₺5
-                    Hafif ve meyveli
-
-                    Kokteyl
-                    ₺10
-                    Spesyellerimizi sorabilirsiniz
-
-                Aperatifler
-                    Kızartılmış Turşu
-                    ₺6
-                    Tavsiyemizdir
-                    (V)
+                <!-- menu_1 -->
+                <div class="items_genel">
+                    <h3>İçecekler</h3>
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Soda</p>
+                            <p>Gazlı İçecekler</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺2</p>
+                        </div>
+                    </div>
                     
-                    Buffalo Soslu Kanat
-                    ₺10
-                    Her porsiyonda 5 adet kanat; hafif, orta veya acı sos ve bleu peyniri/çiftlik ve havuç çubukları ile servis edilir
-                    (GF)
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Kahve</p>
+                            <p>İsteğe bağlı sütlü ve şekerli</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺2</p>
+                        </div>
+                    </div>
 
-                    Patates Kızartması
-                    ₺5
-                    Ev yapımı patates kızartması
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Bira</p>
+                            <p>Delicious and refreshing </p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺5</p>
+                        </div>
+                    </div>
 
-                Çorbalar ve Salatalar
-                    Ev Salatası
-                    ₺8
-                    Ispanak ve roka ile güzel sebzeler; ₺6 'ye tavuk ekleyebilirsiniz
-                    (GF, V)
-                    
-                    Fransız Soğan Çorbası
-                    ₺4
-                    Kalın bir peynir ve lezzetli ekmek ile servis edilir.
-                    
-                    Çedarlı Brokoli Çorbası
-                    ₺5
-                    Kremalı ve doldurma
-                    (GF)
-                    
-                Mezeler
-                    Domuz bifteği
-                    ₺32
-                    Patates püresi ve kavrulmuş kuşkonmaz ile servis edilir
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Şarap</p>
+                            <p>Hafif ve meyveli</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺5</p>
+                        </div>
+                    </div>
 
-                    Büyük Hamburger
-                    ₺14
-                    Patates kızartması ve salata ile servis edilir
-                    Cheseburger: (V)
-                    
-                    Dana Kaburga
-                    ₺18
-                    Eşsiz lezzetiyle
-                    (GF)
-                    
-                Tatlılar
-                    Çikolatalı Kek
-                    ₺7
-                    Çikolata cenneti
-                    (GF)
-                    
-                    Kurabiye ve Dondurma
-                    ₺6
-                    2 kurabiye ve 1 top dondurma seçin
-                    
-                    Profiteröllü Pasta
-                    ₺8
-                    Şefin önerisi
-                    (GF)
+                    <div class="items_ozel">
+                        <div class="items_enozel">
+                            <p>Kokteyl</p>
+                            <p>Spesyellerimizi sorabilirsiniz</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺10</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu_2 -->
+                <div class="items_genel">
+                    <h3>Aperatifler</h3>
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Kızartılmış Turşu</p>
+                            <p>Tavsiyemizdir</p>
+                            <p>(V)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺6</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Buffalo Soslu kanat</p>
+                            <p>Her porsiyonda 5 adet kanat; hafif, orta</p>
+                            <p>veya acı sos ve bleu peyniri/çiftlik ve</p>
+                            <p>havuç çubukları ile servis edilir.</p>
+                            <p>(GF)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺10</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel">
+                        <div class="items_enozel">
+                            <p>Patates Kızartması</p>
+                            <p>Ev yapımı patates kızartması</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu_3 -->
+                <div class="items_genel">
+                    <h3>Çorbalar ve Salatalar</h3>
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Ev Salatası</p>
+                            <p>Ispanak ve roka ile güzel sebzeler;</p>
+                            <p>₺6 'ye tavuk ekleyebilirsiniz</p>
+                            <p>(GF, V)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺8</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Fransız Soğan Çorbası</p>
+                            <p>Kalın bir peynir ve lezzetli ekmek ile</p>
+                            <p>servis edilir.</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺4</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel">
+                        <div class="items_enozel">
+                            <p>Çedarlı Brokoli Çorbası</p>
+                            <p>Kremalı ve doldurma</p>
+                            <p>(GF)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺5</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- menu_4 -->
+                <div class="items_genel">
+                    <h3>Mezeler</h3>
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Domuz bifteği</p>
+                            <p>Patates püresi ve kavrulmuş</p>
+                            <p>kuşkonmaz ile servis edilir</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺32</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Büyük Hamburger</p>
+                            <p>Patetes kızartması ve salata ile servis</p>
+                            <p>edilir.</p>
+                            <p>Cheseburger: (V)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺14</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel">
+                        <div class="items_enozel">
+                            <p>Dana Kaburga/p>
+                            <p>Eşsiz lezzetiyle</p>
+                            <p>(GF)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺18</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu_5 -->
+
+                <div class="items_genel">
+                    <h3>Tatlılar</h3>
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Çikolatalı Kek</p>
+                            <p>Çikolata cenneti</p>
+                            <p>(GF)</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺7</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel alti_cizik">
+                        <div class="items_enozel">
+                            <p>Kurabiye ve Dondurma</p>
+                            <p>2 kurabiye ve 1 top dondurma seçin</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺6</p>
+                        </div>
+                    </div>
+
+                    <div class="items_ozel">
+                        <div class="items_enozel">
+                            <p>Profiteröllü Pasta</p>
+                            <p>Şefin önerisi</p>
+                        </div>
+                        <div class="items_enozel">
+                            <p>₺8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
+            
+
+
+
+
+            <!-- Yemekler & İçecekler
+
+            İçecekler
+            Soda
+            ₺2
+            Gazlı İçecekler
+
+            Kahve
+            ₺2
+            İsteğe bağlı sütlü ve şekerli
+
+            Bira
+            ₺5
+            Delicious and refreshing
+
+            Şarap
+            ₺5
+            Hafif ve meyveli
+
+            Kokteyl
+            ₺10
+            Spesyellerimizi sorabilirsiniz
+
+            Aperatifler
+            Kızartılmış Turşu
+            ₺6
+            Tavsiyemizdir
+            (V)
+
+            Buffalo Soslu Kanat
+            ₺10
+            Her porsiyonda 5 adet kanat; hafif, orta veya acı sos ve bleu peyniri/çiftlik ve havuç çubukları ile servis
+            edilir
+            (GF)
+
+            Patates Kızartması
+            ₺5
+            Ev yapımı patates kızartması
+
+            Çorbalar ve Salatalar
+            Ev Salatası
+            ₺8
+            Ispanak ve roka ile güzel sebzeler; ₺6 'ye tavuk ekleyebilirsiniz
+            (GF, V)
+
+            Fransız Soğan Çorbası
+            ₺4
+            Kalın bir peynir ve lezzetli ekmek ile servis edilir.
+
+            Çedarlı Brokoli Çorbası
+            ₺5
+            Kremalı ve doldurma
+            (GF)
+
+            Mezeler
+            Domuz bifteği
+            ₺32
+            Patates püresi ve kavrulmuş kuşkonmaz ile servis edilir
+
+            Büyük Hamburger
+            ₺14
+            Patates kızartması ve salata ile servis edilir
+            Cheseburger: (V)
+
+            Dana Kaburga
+            ₺18
+            Eşsiz lezzetiyle
+            (GF)
+
+            Tatlılar
+            Çikolatalı Kek
+            ₺7
+            Çikolata cenneti
+            (GF)
+
+            Kurabiye ve Dondurma
+            ₺6
+            2 kurabiye ve 1 top dondurma seçin
+
+            Profiteröllü Pasta
+            ₺8
+            Şefin önerisi
+            (GF) -->
+        
 
         <!-- spacer -->
         <div class="spacer-sm"></div>
 
         <!-- footer -->
         <footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+            <div class="footer_container">
+                <nav>
+                    <div class="footer_nav">
+                        <div class="footer_first">
+                            <p>Mail listemize katılın!</p>
+                            <div class="input_button">
+                                <input id="email" type="email" id="email" placeholder="E-posta Adresi">
+                                <button id="register">Üye ol</button>
+                            </div>
+                        </div>
+                        <a href="menu.html">Menü</a>
+                        <a href="#">Rezervasyonlar</a>
+                        <a href="#">Özel Teklifler</a>
+                        <a href="#">İletişim</a>
+                    </div>
+                </nav>
+
+                <p id="copyright">©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+            </div>
         </footer>
     </div>
 </body>
