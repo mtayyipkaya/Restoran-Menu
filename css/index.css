@@ -203,8 +203,9 @@ header h1 {
 }
 
 .header_nav a {
-    color: white;
+    color: red;
     font-size: 2.5rem;
+
 }
 
 .social_icons {
